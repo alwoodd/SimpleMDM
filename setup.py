@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="SimpleMDM_device_name_update",
-    version="1.0.0",
+    version="1.0.1",
     description="Uses SimpleMDM API to update all iPad's SimpleMDM name to its device name.",
     author="Dan Alwood",
     author_email="dalwood@yahoo.com",

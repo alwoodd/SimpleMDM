@@ -23,7 +23,7 @@ def main():
     config.parse_cmd_line_args()
 
     existing_devices = retrieve_ipads()
-    logging.info(str(len(existing_devices)) + " devices retrieved from SimpleMDM")
+    logging.info(str(len(existing_devices)) + " iPads retrieved from SimpleMDM")
     logging.info("Device Updates:")
 
     for device in existing_devices:
